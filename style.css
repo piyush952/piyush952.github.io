@@ -124,10 +124,11 @@ li{
 
 .container {
   width: 50%;
-  background-color: #ddd;
-
-  
-  
+  background-color: #ddd;  
+}
+.skills {
+    color: white;
+    text-align: right;
 }
 
 
