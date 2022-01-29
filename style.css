@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 228, 228);
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    /* float: left; */
+    margin-right: 10px;
+
+}
+.bold {
+    font-weight: bold;
+}
+
+.changing {
+    font-weight: bold;
+    font-style: normal;
+    color: crimson;
+}
+
+
+
+
+.navbar{
+    background-color: rgb(133, 150, 252);
+    position: fixed;
+    bottom: 4vh;
+    height: 6vh;
+    font-size: 25px;
+    top: 0;
+    width: 100%;
+}
+
+.left
+{
+    float: left;
+    position: relative;
+    bottom: 27px;
+}
+
+.right{
+    float: right;
+    position: relative;
+    bottom: 27px;
+    color: white;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 0;
+
+    justify-content: space-between;
+    
+}
+li{
+    margin: 10px;
+}
+/* .navlink a:hover{
+    border-bottom: 5px red; */
+
+.topnav {
+    color: white;
+  }
+  
+ 
+#frontpage{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    height: 70vh;
+    padding-top: 20vh;
+
+}
+
+.description{
+    width: 50vh;
+    
+}
+.intro{
+    text-align: justify;
+}
+
+.image{
+}
+
+.btn-frontpage{
+    background-color: rgb(98, 98, 187);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+
+}
+
+.btn-frontpage:hover{
+    background-color: rgb(174, 206, 248);
+    color: black;
+    
+}
+
+#hobbies_section{
+    height: 85vh;
+    background-color: aqua;
+}
+
+#skills_section{
+    height: 80vh;
+    margin-top: 10vh;
+
+    
+
+
+}
+.statistic{
+    margin-left: 30vh;
+}
+/* * {box-sizing: border-box} */
+
+.container {
+  width: 50%;
+  background-color: #ddd;
+
+  
+  
+}
+
+
+
+.html {width: 60%;
+       background-color: rgb(44, 61, 138);
+    }
+.css {width: 50%; 
+      background-color: rgb(44, 61, 138);}
+.python {width: 60%;
+     background-color: rgb(44, 61, 138);}
+.clanguage {width: 30%;
+      background-color: rgb(44, 61, 138);}
+
+.hobbies{
+    display: flex;
+    justify-content: space-between;
+    margin: 40vx;
+    padding-right: 30vh;
+    padding-left: 30vh;
+} 
+
+.down1{
+    margin-top: 20vh;
+}
+
+.border-bottom{
+    border-bottom: 3px solid red;
+}

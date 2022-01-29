@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="./script.js"></script>
+        <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+        <title>My first html website</title>
+        <!-- <style>
+             img {
+                width: 300px;
+                border-radius: 10px;
+                /* float: left; */
+                margin-right: 10px;
+
+            }
+            .bold {
+                font-weight: bold;
+            }
+        </style> -->
+        <!-- <script>
+            var arr=Array("Home-nav","Skills-nav","Hobbies-nav");
+            function onClick(props)
+            {
+              
+                for (let index = 0; index < arr.length; index++) {
+                    const element = arr[index];
+                    var ele=document.getElementById(element);
+                    if(element===props){
+                      ele.classList.add("active");
+                    }else{
+                        ele.classList.remove("active");
+                    }
+                    
+                }
+            }
+            AOS.init();
+            </script> -->
+    </head>
+    <body>
+
+        <div class="navbar">
+            <ul>
+                <div>
+                   <a href="#frontpage" onclick="secondFunction()"><li class="left">Piyush Sharma</li></a>
+
+                </div>
+                <div class=topnav>
+                    <a href="#skills_section"><li class="right skills" onclick="borderBottom('skills')" >Skills</li></a>
+                    <a href="#hobbies_section"><li class="right My-Hobbies" onclick="borderBottom('My-Hobbies')">My hobbies</li></a>
+                    <a href="#frontpage"><li class="right home border-bottom" onclick="borderBottom('home')" >Home</li></a>
+
+                </div>
+                
+            </ul>
+        </div>
+
+    
+        <div id="frontpage">
+            <div class="description">
+                <br>
+                <br>
+                <br>
+                <h1>Hola, I'm Piyush</h1>
+                <p class="intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate rem hic illo nostrum non fuga quaerat incidunt tempore, cum vel molestiae vitae id doloremque dolores nesciunt temporibus sint! Quos, numquam?</p>
+                <br>
+                <br>
+                <br>
+                <br>
+            
+                <div class="two-buttons">
+                    <a href="#hobbies_section"><button class="btn-frontpage">My Hobbies</button></a>
+                    <a href="#skills_section"><button class="btn-frontpage">Skills</button></a>
+                   
+
+                </div>
+
+            </div>
+
+            <div class="image">
+                <img src="./images/photo1.jpg" alt="">
+
+                
+            </div>
+
+        </div>
+        <div id="hobbies_section" style="text-align: center;">
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <h1 style="align-content: center;">My Hobbies</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- <i class="fa fa-music" style="font-size:48px;"></i>
+            <i class="fa fa-bicycle" style="font-size:48px;"></i>
+            <i class="fa fa-futbol-o" style="font-size:48px;"></i>
+            <i class="	fa fa-play" style="font-size:48px;"></i> -->
+            <div class="hobbies">   
+                <div class="up1">
+                    <i class="fa fa-headphones" style="font-size:48px;"></i>
+                    <p style="font-size: 20px;">Listening to music</p>
+                </div>
+                <div class="down1">
+                    <i class="fa fa-bicycle" style="font-size:48px;"></i>
+                    <p style="font-size: 20px;">Cycling</p>
+                </div>
+                <div class="up1">
+                    <!-- <i class="fa fa-play" style="font-size:48px;"></i> -->
+                    <i class="fa fa-file-video-o" style="font-size:48px;"></i>
+                    <p style="font-size: 20px;">Watching movies</p>
+                </div>
+                <div class="down1">
+                    <i class="fa fa-futbol-o" style="font-size:48px;"></i>
+                    
+                    <p style="font-size: 20px;">Playing football</p>
+                </div>
+                <div class="up1" >
+                    <i class='fas fa-guitar' style='font-size:48px;'></i>
+                    <p style="font-size: 20px;">Playing guitar</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="skills_section">
+            <h1 style="text-align: center;">Skills</h1>
+            <br>
+            <br>
+            <div class="statistic">
+                <p>&nbsp;&nbsp;&nbsp; <b>HTML<b></p>
+                <div class="container">
+                <div class="skills html">60%</div>
+                </div>
+                <br>
+                <br>
+
+                <p>&nbsp;&nbsp;&nbsp;<b>CSS</b></p>
+                <div class="container">
+                <div class="skills css">50%</div>
+                </div>
+                <br>
+                <br>
+
+                <p>&nbsp;&nbsp;&nbsp;<b>Python</b></p>
+                <div class="container">
+                <div class="skills python">60%</div>
+                </div>
+                <br>
+                <br>
+                <p>&nbsp;&nbsp;&nbsp;<b>C Language</b></p>
+                <div class="container">
+                <div class="skills clanguage">30%</div>
+                </div>
+            <div>
+            <br>
+            <br>
+
+        </div>
+        <!-- <div style="background-color: red;">World</div> -->
+        
+        
+        
+        <!-- <img src="./images/picture1.jpg" alt="dwqdq"> -->
+        <!-- <p class="bold">Hi i study in nsut. I am doing btec</p>
+        <p>This is my first website</p> -->
+
+        <!-- <div style="background-color: blue;">Hello</div>
+        <div style="background-color: red;">World</div> -->
+    </body>
+
+
+</html>
