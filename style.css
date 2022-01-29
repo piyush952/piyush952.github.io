@@ -61,8 +61,7 @@ ul{
 li{
     margin: 10px;
 }
-/* .navlink a:hover{
-    border-bottom: 5px red; */
+
 
 .topnav {
     color: white;
@@ -87,8 +86,6 @@ li{
     text-align: justify;
 }
 
-.image{
-}
 
 .btn-frontpage{
     background-color: rgb(98, 98, 187);
@@ -123,7 +120,7 @@ li{
 .statistic{
     margin-left: 30vh;
 }
-/* * {box-sizing: border-box} */
+
 
 .container {
   width: 50%;
